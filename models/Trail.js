@@ -11,6 +11,9 @@ const trailSchema = new Schema({
 		type: String,
 		required: true
 	},
+	coordinates: {
+		type: String
+	},
 	length: {
 		type: Number,
 		required: true
