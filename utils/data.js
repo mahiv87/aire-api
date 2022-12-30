@@ -106,7 +106,17 @@ const trails = [
 		image:
 			'https://dayhikesneardenver.com/wp-content/uploads/2016/02/00-flattop-mountain-rocky-mountain-national-park-header.jpg'
 	},
-	{}
+	{
+		trailName: 'Hallett Peak',
+		description:
+			"Discover this 10.3-mile out-and-back trail near Estes Park, Colorado. Generally considered a challenging route, it takes an average of 6 h 25 min to complete. This is a very popular area for birding, hiking, and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are March through November. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.31201,-105.64597',
+		length: 10.3,
+		elevationGain: 3293,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Dream_Lake.jpg'
+	}
 ];
 
 module.exports = { trails };
