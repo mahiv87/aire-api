@@ -3,11 +3,16 @@ const {
 	getTrails,
 	getSingleTrail,
 	createTrail,
-	deleteTrail
+	deleteTrail,
+	updateTrail
 } = require('../../controllers/trailController');
 
 router.route('/').get(getTrails).post(createTrail);
 
-router.route('/:trailId').get(getSingleTrail).delete(deleteTrail);
+router
+	.route('/:trailId')
+	.get(getSingleTrail)
+	.put(updateTrail)
+	.delete(deleteTrail);
 
 module.exports = router;
