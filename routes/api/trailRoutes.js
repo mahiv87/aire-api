@@ -8,6 +8,6 @@ const {
 
 router.route('/').get(getTrails).post(createTrail);
 
-router.route('/trailId').get(getSingleTrail).delete(deleteTrail);
+router.route('/:trailId').get(getSingleTrail).delete(deleteTrail);
 
 module.exports = router;
