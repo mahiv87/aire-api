@@ -11,7 +11,7 @@ const trailSchema = new Schema({
 		type: String,
 		required: true
 	},
-	coordinates: {
+	trailheadCoordinates: {
 		type: String
 	},
 	length: {
@@ -37,4 +37,4 @@ const trailSchema = new Schema({
 
 const Trail = model('trail', trailSchema);
 
-module.exports = Trail;
+module.exports = { Trail };

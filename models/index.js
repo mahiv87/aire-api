@@ -1,3 +1,3 @@
-const Trail = require('./Trail');
+const { Trail } = require('./Trail');
 
-module.exports = Trail;
+module.exports = { Trail };
