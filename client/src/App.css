@@ -22,6 +22,11 @@ header {
 	margin-bottom: 2rem;
 }
 
+.logo {
+	border: 4px solid #101010;
+	border-radius: 50%;
+}
+
 .sample-container {
 	max-width: 500px;
 	display: flex;
