@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
-import { ChakraProvider } from '@chakra-ui/react';
-import { Spinner } from '@chakra-ui/react';
+import { Button, ChakraProvider, Spinner } from '@chakra-ui/react';
+// import { Spinner } from '@chakra-ui/react';
 import aireLogo from './assets/nature_icon.svg';
 import './App.css';
 
@@ -50,14 +50,14 @@ function App() {
 						<article className="trailDescription">
 							{response[0].description}
 						</article>
-						<div className="trailhead">
+						<Button colorScheme="green" variant="ghost">
 							<a
 								href={`https://www.google.com/maps/place/${response[0].trailheadCoordinates}`}
 								target="_blank"
 							>
 								Trailhead
 							</a>
-						</div>
+						</Button>
 					</div>
 				) : (
 					<div className="spinner">
