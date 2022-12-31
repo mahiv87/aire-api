@@ -1,7 +1,7 @@
 {
 	"name": "AIRE API",
 	"version": "1.0.0",
-	"description": "API for hiking trails in Colorado",
+	"description": "API for hiking trails",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
