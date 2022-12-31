@@ -142,3 +142,10 @@ header {
 	color: #99c794;
 	font-weight: bold;
 }
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}

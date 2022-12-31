@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { Button, ChakraProvider, Divider, Spinner } from '@chakra-ui/react';
 import { MdPlace } from 'react-icons/md';
+import { FaGithub } from 'react-icons/fa';
 import prettyHtml from 'json-pretty-html';
 import aireLogo from './assets/nature_icon.svg';
 import './App.css';
@@ -88,14 +89,17 @@ function App() {
 							<article className="trail-description">
 								{response[0].description}
 							</article>
-							<Button colorScheme="green" variant="ghost">
+							<Button
+								colorScheme="green"
+								variant="ghost"
+								rightIcon={<MdPlace />}
+							>
 								<a
 									href={`https://www.google.com/maps/place/${response[0].trailheadCoordinates}`}
 									target="_blank"
 								>
 									Trailhead
 								</a>
-								<MdPlace />
 							</Button>
 						</div>
 					) : (
@@ -104,6 +108,14 @@ function App() {
 						</div>
 					)}
 				</div>
+				<Divider />
+				<footer>
+					<Button colorScheme="teal" rightIcon={<FaGithub />}>
+						<a href="https://github.com/mahiv87/aire-api" target="_blank">
+							GitHub
+						</a>
+					</Button>
+				</footer>
 			</div>
 		</ChakraProvider>
 	);
