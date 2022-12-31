@@ -19,15 +19,44 @@ function App() {
 		getTrails();
 	}, [getTrails]);
 
-	console.log(response[0]);
-
 	return (
 		<div className="App">
 			<img className="logo" src={aireLogo} alt="" />
 			<h1 className="title">aire</h1>
-			<div>
-				<h2>{response[0].trailName}</h2>
-			</div>
+			{response.length > 1 ? (
+				<div className="trailCard">
+					<img className="trailImg" src={response[0].image} alt="" />
+					<h2 className="trailTitle">{response[0].trailName}</h2>
+					<div className="trailInfo">
+						<p className="trailDifficulty">
+							Difficulty: <span>{response[0].difficulty}</span>
+						</p>
+						<p className="trailLength">
+							Length: <span>{response[0].length}mi</span>
+						</p>
+						<p className="trailType">
+							Route: <span>{response[0].routeType}</span>
+						</p>
+						<p className="trailElevation">
+							Elevation Gain: <span>{response[0].elevationGain}ft</span>
+						</p>
+					</div>
+					<div></div>
+					<article className="trailDescription">
+						{response[0].description}
+					</article>
+					<div className="trailhead">
+						<a
+							href={`https://www.google.com/maps/place/${response[0].trailheadCoordinates}`}
+							target="_blank"
+						>
+							Trailhead
+						</a>
+					</div>
+				</div>
+			) : (
+				<h2>Loading...</h2>
+			)}
 		</div>
 	);
 }
