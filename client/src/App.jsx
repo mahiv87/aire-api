@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { Button, ChakraProvider, Divider, Spinner } from '@chakra-ui/react';
+import { MdPlace } from 'react-icons/md';
 import prettyHtml from 'json-pretty-html';
 import aireLogo from './assets/nature_icon.svg';
 import './App.css';
@@ -94,6 +95,7 @@ function App() {
 								>
 									Trailhead
 								</a>
+								<MdPlace />
 							</Button>
 						</div>
 					) : (
