@@ -11,6 +11,20 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.spinner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
 .trailDescription {
 	font-size: 0.8rem;
 	padding: 0.5rem;
@@ -24,7 +38,7 @@
 }
 
 .trailhead {
-	max-width: 5rem;
+	max-width: 8rem;
 	background-color: #212121;
 	border: 2px solid gray;
 	border-radius: 2rem;
@@ -55,6 +69,8 @@
 
 .trailTitle {
 	margin: 0.5rem;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 .title {
@@ -62,4 +78,5 @@
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	margin-top: 0;
+	padding-top: 0;
 }
