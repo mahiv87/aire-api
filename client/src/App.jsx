@@ -28,42 +28,46 @@ function App() {
 					<img className="logo" src={aireLogo} alt="" />
 					<h1 className="title">aire</h1>
 				</header>
-				{response.length > 1 ? (
-					<div className="trailCard">
-						<img className="trailImg" src={response[0].image} alt="" />
-						<h2 className="trailTitle">{response[0].trailName}</h2>
-						<div className="trailInfo">
-							<p className="trailDifficulty">
-								Difficulty: <span>{response[0].difficulty}</span>
-							</p>
-							<p className="trailLength">
-								Length: <span>{response[0].length}mi</span>
-							</p>
-							<p className="trailType">
-								Route: <span>{response[0].routeType}</span>
-							</p>
-							<p className="trailElevation">
-								Elevation Gain: <span>{response[0].elevationGain}ft</span>
-							</p>
+				<div></div>
+				<div className="sample-container">
+					<h1 className="sample-title">Sample created with response</h1>
+					{response.length > 1 ? (
+						<div className="trail-card">
+							<img className="trail-img" src={response[0].image} alt="" />
+							<h2 className="trail-title">{response[0].trailName}</h2>
+							<div className="trail-info">
+								<p className="trail-difficulty">
+									Difficulty: <span>{response[0].difficulty}</span>
+								</p>
+								<p className="trail-length">
+									Length: <span>{response[0].length}mi</span>
+								</p>
+								<p className="trail-type">
+									Route: <span>{response[0].routeType}</span>
+								</p>
+								<p className="trail-elevation">
+									Elevation Gain: <span>{response[0].elevationGain}ft</span>
+								</p>
+							</div>
+							<div></div>
+							<article className="trail-description">
+								{response[0].description}
+							</article>
+							<Button colorScheme="green" variant="ghost">
+								<a
+									href={`https://www.google.com/maps/place/${response[0].trailheadCoordinates}`}
+									target="_blank"
+								>
+									Trailhead
+								</a>
+							</Button>
 						</div>
-						<div></div>
-						<article className="trailDescription">
-							{response[0].description}
-						</article>
-						<Button colorScheme="green" variant="ghost">
-							<a
-								href={`https://www.google.com/maps/place/${response[0].trailheadCoordinates}`}
-								target="_blank"
-							>
-								Trailhead
-							</a>
-						</Button>
-					</div>
-				) : (
-					<div className="spinner">
-						<Spinner size="xl" />
-					</div>
-				)}
+					) : (
+						<div className="spinner">
+							<Spinner size="xl" />
+						</div>
+					)}
+				</div>
 			</div>
 		</ChakraProvider>
 	);
