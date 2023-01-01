@@ -152,6 +152,42 @@ const trails = [
 		difficulty: 'Hard',
 		image:
 			'https://www.nps.gov/common/uploads/cropped_image/primary/9DAF1CC3-0E59-BDCA-84DA1EEA6C381C8E.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Deer Mountain Trail',
+		description:
+			"Enjoy this 6.0-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 3 h 11 min to complete. This is a very popular area for hiking, so you'll likely encounter other people while exploring. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.38685,-105.60991',
+		length: 6.0,
+		elevationGain: 1400,
+		routeType: ' Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://s27363.pcdn.co/wp-content/uploads/2020/08/Deer-Mountain-for-Facebook.jpg.optimal.jpg'
+	},
+	{
+		trailName: 'Ouzel Falls via Wild Basin Trail',
+		description:
+			"Explore this 5.3-mile out-and-back trail near Allenspark, Colorado. Generally considered a moderately challenging route, it takes an average of 2 h 33 min to complete. This is a very popular area for hiking, horseback riding, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.20783,-105.56643',
+		length: 5.3,
+		elevationGain: 984,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://dayhikesneardenver.com/wp-content/uploads/2016/06/00-ouzel-falls-rocky-mountain-national-park-header.jpg'
+	},
+	{
+		trailName: 'Twin Sisters Peak Trail',
+		description:
+			"Get to know this 7.5-mile out-and-back trail near Estes Park, Colorado. Generally considered a challenging route, it takes an average of 4 h 49 min to complete. This is a very popular area for hiking, horseback riding, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.30648,-105.53711',
+		length: 7.5,
+		elevationGain: 2516,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'https://s27363.pcdn.co/wp-content/uploads/2020/09/Longs-Peak-from-Twin-Sisters.jpg.optimal.jpg'
 	}
 ];
 
