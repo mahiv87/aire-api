@@ -321,7 +321,53 @@ const trails = [
 		image:
 			'https://dayhikesneardenver.com/wp-content/uploads/2016/01/00_timberline-falls-rocky-mountain_header.jpg'
 	},
-	{}
+	{
+		trailName: 'Glacier Gorge Trail',
+		description:
+			"Head out on this 10.0-mile out-and-back trail near Estes Park, Colorado. Generally considered a challenging route, it takes an average of 4 h 55 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.31051,-105.64031',
+		length: 10.0,
+		elevationGain: 1952,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'https://wildlandtrekking.com/content/uploads/2020/03/glacier-gorge-overlook-e1556571139166-1-865x479.jpg'
+	},
+	{
+		trailName: 'Ouzel Lake Trail',
+		description:
+			"Experience this 10.0-mile out-and-back trail near Allenspark, Colorado. Generally considered a moderately challenging route, it takes an average of 4 h 37 min to complete. This is a very popular area for backpacking, camping, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.20762,-105.56664',
+		length: 10.0,
+		elevationGain: 1683,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://dayhikesneardenver.com/wp-content/uploads/2016/02/00-ouzel-lake-rocky-mountain-national-park-header.jpg'
+	},
+	{
+		trailName: 'Ute Trail',
+		description:
+			"Explore this 5.7-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 3 h 40 min to complete. This is a very popular area for backpacking and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through September. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.39338,-105.69539',
+		length: 5.7,
+		elevationGain: 1922,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image: 'https://liveandlethike.files.wordpress.com/2013/08/p1000448.jpg'
+	},
+	{
+		trailName: 'Sandbeach Lake Trail',
+		description:
+			"Check out this 9.0-mile out-and-back trail near Allenspark, Colorado. Generally considered a challenging route, it takes an average of 4 h 46 min to complete. This is a very popular area for backpacking, camping, and fishing, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.21967,-105.53451',
+		length: 9.0,
+		elevationGain: 2086,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'https://dayhikesneardenver.b-cdn.net/wp-content/uploads/2016/06/01-sandbeach-lake-rocky-mountain-national-park.jpg'
+	}
 ];
 
 module.exports = { trails };
