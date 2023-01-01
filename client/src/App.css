@@ -77,9 +77,15 @@ header {
 	font-size: 0.8rem;
 }
 
+.trail-info p {
+	color: #f45d48;
+	font-weight: bold;
+}
+
 .trail-info span {
 	font-size: 0.7rem;
-	color: green;
+	font-weight: bold;
+	color: #078080;
 }
 
 .trail-title {
