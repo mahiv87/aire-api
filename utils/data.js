@@ -68,7 +68,8 @@ const trails = [
 		elevationGain: 846,
 		routeType: 'Out & Back',
 		difficulty: 'Moderate',
-		image: ''
+		image:
+			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/lake-haiyaha/lake-haiyaha.jpg'
 	},
 	{
 		trailName: 'Nymph Lake Trail',
