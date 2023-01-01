@@ -224,6 +224,30 @@ const trails = [
 		difficulty: 'Moderate',
 		image:
 			'https://www.nps.gov/common/uploads/cropped_image/primary/6F67DF34-A8F1-22F4-EFAD2904637A4EF1.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Bridal Veil Falls via Cow Creek Trail',
+		description:
+			"Try this 6.1-mile out-and-back trail near Glen Haven, Colorado. Generally considered a moderately challenging route, it takes an average of 2 h 46 min to complete. This is a very popular area for camping, hiking, and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are March through November. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.43087,-105.50054',
+		length: 6.1,
+		elevationGain: 964,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://i0.wp.com/www.denverpost.com/wp-content/uploads/2022/07/TGC-Z-BridalVeilsOne.webp?fit=620%2C9999px&ssl=1'
+	},
+	{
+		trailName: 'Adams Falls Trail',
+		description:
+			"Try this 0.8-mile out-and-back trail near Grand Lake, Colorado. Generally considered an easy route, it takes an average of 20 min to complete. This is a very popular area for hiking and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are June through November. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.23944,-105.79992',
+		length: 0.8,
+		elevationGain: 104,
+		routeType: 'Out & Back',
+		difficulty: 'Easy',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/3877B2F6-A76C-5B18-61D34B1BBE5BD727.jpg?width=1200&quality=90&mode=crop'
 	}
 ];
 
