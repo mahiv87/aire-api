@@ -284,7 +284,44 @@ const trails = [
 		difficulty: 'Moderate',
 		image:
 			'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/1c/6a/58/fern-lake.jpg?w=1200&h=-1&s=1'
-	}
+	},
+	{
+		trailName: 'Cascade Falls',
+		description:
+			"Check out this 7.4-mile out-and-back trail near Grand Lake, Colorado. Generally considered a moderately challenging route, it takes an average of 2 h 49 min to complete. This is a very popular area for fishing, hiking, and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are June through August. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.25664,-105.81443',
+		length: 7.4,
+		elevationGain: 675,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://gograndlake.com/wp-content/uploads/2014/08/IMG_1757-768x1024.jpg'
+	},
+	{
+		trailName: 'Lily Lake',
+		description:
+			"Try this 0.8-mile loop trail near Estes Park, Colorado. Generally considered an easy route, it takes an average of 16 min to complete. This is a very popular area for birding, fishing, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through November. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.30657,-105.53779',
+		length: 0.8,
+		elevationGain: 29,
+		routeType: 'Loop',
+		difficulty: 'Easy',
+		image:
+			'https://www.nps.gov/romo/images/lg_lily_lake.jpg?maxwidth=1200&maxheight=1200&autorotate=false'
+	},
+	{
+		trailName: 'Timberline Falls',
+		description:
+			'Check out this 7.8-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 3 h 57 min to complete. This is a popular trail for backpacking and hiking, but you can still enjoy some solitude during quieter times of day.',
+		trailheadCoordinates: '40.31051,-105.64031',
+		length: 7.8,
+		elevationGain: 1637,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://dayhikesneardenver.com/wp-content/uploads/2016/01/00_timberline-falls-rocky-mountain_header.jpg'
+	},
+	{}
 ];
 
 module.exports = { trails };
