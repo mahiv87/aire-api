@@ -248,6 +248,42 @@ const trails = [
 		difficulty: 'Easy',
 		image:
 			'https://www.nps.gov/common/uploads/cropped_image/primary/3877B2F6-A76C-5B18-61D34B1BBE5BD727.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Mount Ida Trail',
+		description:
+			"Check out this 9.3-mile out-and-back trail near Grand Lake, Colorado. Generally considered a challenging route, it takes an average of 5 h 9 min to complete. This is a very popular area for hiking and running, so you'll likely encounter other people while exploring. The best times to visit this trail are May through September. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.42039,-105.81153',
+		length: 9.3,
+		elevationGain: 2358,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/mount-ida/never-summer-mountains.jpg'
+	},
+	{
+		trailName: 'Cub Lake Trail Loop',
+		description:
+			"Discover this 6.0-mile loop trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 2 h 29 min to complete. This is a very popular area for birding, hiking, and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.35552,-105.61602',
+		length: 6.0,
+		elevationGain: 744,
+		routeType: 'Loop',
+		difficulty: 'Moderate',
+		image:
+			'https://dayhikesneardenver.com/wp-content/uploads/2016/04/00cub-lake-in-rocky-mountain-nationl-park-from-above-creative-commons-by-geoff-livingston-.jpg'
+	},
+	{
+		trailName: 'Fern Lake Trail',
+		description:
+			"Get to know this 7.5-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 3 h 42 min to complete. This is a very popular area for backpacking, camping, and fishing, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.35486,-105.63112',
+		length: 7.5,
+		elevationGain: 1476,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/1c/6a/58/fern-lake.jpg?w=1200&h=-1&s=1'
 	}
 ];
 
