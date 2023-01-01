@@ -5,6 +5,8 @@
 	max-width: 1280px;
 	margin: 0 auto;
 	padding: 2rem;
+	background-color: #f8f5f2;
+	color: #232323;
 	font-family: 'Inter', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -23,7 +25,7 @@ header {
 }
 
 .logo {
-	border: 4px solid #101010;
+	border: 4px solid #232323;
 	border-radius: 50%;
 }
 
@@ -57,6 +59,7 @@ header {
 
 .trail-card {
 	max-width: 350px;
+	background-color: #fffffe;
 	border-radius: 4px;
 	padding-bottom: 1rem;
 	box-shadow: 0px 0px 10px 5px #eeeeee;
@@ -106,7 +109,7 @@ header {
 }
 
 .response-container pre {
-	background-color: #f5f5f5;
+	background-color: #fffffe;
 	border: 1px solid lightgray;
 	padding: 0.5rem;
 }
@@ -138,13 +141,13 @@ header {
 }
 
 .usage-container code {
-	background-color: #f5f5f5;
+	background-color: #fffffe;
 	border: 1px solid lightgray;
 	padding: 0.5rem 3rem;
 }
 
 .json-key {
-	color: #99c794;
+	color: #078080;
 	font-weight: bold;
 }
 
