@@ -116,6 +116,42 @@ const trails = [
 		routeType: 'Out & Back',
 		difficulty: 'Hard',
 		image: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Dream_Lake.jpg'
+	},
+	{
+		trailName: 'Gem Lake Trail',
+		description:
+			"Experience this 3.1-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 1 h 57 min to complete. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.39645,-105.51303',
+		length: 3.1,
+		elevationGain: 994,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/FE2B7DF2-0CE8-9BEE-81A77526567AC94B.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Alberta Falls Trail',
+		description:
+			"Get to know this 1.6-mile out-and-back trail near Estes Park, Colorado. Generally considered an easy route, it takes an average of 42 min to complete. This is a very popular area for hiking, horseback riding, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.31046,-105.64036',
+		length: 1.6,
+		elevationGain: 232,
+		routeType: 'Out & Back',
+		difficulty: 'Easy',
+		image:
+			'https://dayhikesneardenver.com/wp-content/uploads/2010/08/albertafalls.jpg'
+	},
+	{
+		trailName: 'Chasm Lake',
+		description:
+			"Enjoy this 8.8-mile out-and-back trail near Estes Park, Colorado. Generally considered a challenging route, it takes an average of 5 h 12 min to complete. This is a very popular area for hiking, horseback riding, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.27198,-105.55655',
+		length: 8.8,
+		elevationGain: 2542,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/9DAF1CC3-0E59-BDCA-84DA1EEA6C381C8E.jpg?width=1200&quality=90&mode=crop'
 	}
 ];
 
