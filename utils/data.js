@@ -188,6 +188,42 @@ const trails = [
 		difficulty: 'Hard',
 		image:
 			'https://s27363.pcdn.co/wp-content/uploads/2020/09/Longs-Peak-from-Twin-Sisters.jpg.optimal.jpg'
+	},
+	{
+		trailName: 'Sprague Lake Trail',
+		description:
+			"Try this 0.8-mile loop trail near Estes Park, Colorado. Generally considered an easy route, it takes an average of 16 min to complete. This is a very popular area for fishing, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.32049,-105.60794',
+		length: 0.8,
+		elevationGain: 36,
+		routeType: 'Loop',
+		difficulty: 'Easy',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/B650611A-A371-14A8-649C7F06C78F8A0E.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Mills Lake via Glacier Gorge Trail',
+		description:
+			"Try this 5.4-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 2 h 26 min to complete. This is a very popular area for hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.31093,-105.6395',
+		length: 5.4,
+		elevationGain: 856,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/24F7ADD5-9346-EC04-6CD55A01D9598CDD.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Bierstadt Lake Loop Trail',
+		description:
+			"Try this 3.2-mile loop trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 1 h 34 min to complete. This is a very popular area for hiking, horseback riding, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.32048,-105.62367',
+		length: 3.2,
+		elevationGain: 626,
+		routeType: 'Loop',
+		difficulty: 'Moderate',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/6F67DF34-A8F1-22F4-EFAD2904637A4EF1.jpg?width=1200&quality=90&mode=crop'
 	}
 ];
 
