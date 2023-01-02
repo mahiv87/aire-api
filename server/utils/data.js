@@ -404,6 +404,42 @@ const trails = [
 		difficulty: 'Hard',
 		image:
 			'https://www.nps.gov/common/uploads/cropped_image/primary/D2834963-0053-1E4B-CEA592D524B6C160.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'West Creek Falls',
+		description:
+			"Discover this 4.3-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 2 h 42 min to complete. This is a popular trail for hiking, snowshoeing, and walking, but you can still enjoy some solitude during quieter times of day. The best times to visit this trail are April through November. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.43091,-105.50057',
+		length: 4.3,
+		elevationGain: 1394,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://rockymountaindayhikes.com/uploads/3/4/7/6/34766137/fullsizeoutput-9833_1_orig.jpeg'
+	},
+	{
+		trailName: 'Bluebird Lake Trail',
+		description:
+			"Explore this 14.3-mile out-and-back trail near Allenspark, Colorado. Generally considered a challenging route, it takes an average of 7 h 2 min to complete. This is a popular trail for backpacking and hiking, but you can still enjoy some solitude during quieter times of day. The best times to visit this trail are March through November. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.20796,-105.5663',
+		length: 14.3,
+		elevationGain: 2801,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/bluebird-lake/bluebird-lake.JPG'
+	},
+	{
+		trailName: 'Lawn Lake Trail',
+		description:
+			"Experience this 13.0-mile out-and-back trail near Estes Park, Colorado. Generally considered a challenging route, it takes an average of 6 h 25 min to complete. This is a very popular area for camping, fishing, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.40714,-105.62629',
+		length: 13.0,
+		elevationGain: 2578,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/lawn-lake/lawn-lake.jpg'
 	}
 ];
 
