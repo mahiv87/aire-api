@@ -1,0 +1,21 @@
+{
+	"name": "aire-api-server",
+	"version": "1.0.0",
+	"description": "API for hiking trails",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index",
+		"seed": "node utils/seed"
+	},
+	"dependencies": {
+		"dayjs": "1.11.3",
+		"cors": "2.8.5",
+		"express": "4.17.1",
+		"mongoose": "6.0.13"
+	},
+	"devDependencies": {
+		"nodemon": "2.0.9"
+	}
+}
