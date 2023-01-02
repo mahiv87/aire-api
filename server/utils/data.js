@@ -488,6 +488,44 @@ const trails = [
 		difficulty: 'Easy',
 		image:
 			'https://www.nps.gov/common/uploads/cropped_image/primary/98D3066A-A05B-058E-4D573B77FF4CFFFE.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Continental Divide National Scenic Trail',
+		description:
+			"Experience this 29.4-mile loop trail near Grand Lake, Colorado. Generally considered a challenging route, it takes an average of 13 h 37 min to complete. This trail is great for backpacking, birding, and camping, and it's unlikely you'll encounter many other people while exploring. The best times to visit this trail are July through September. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates:
+			'https://www.google.com/maps/dir/Current+Location/40.30758,-105.84125',
+		length: 29.4,
+		elevationGain: 4977,
+		routeType: 'Loop',
+		difficulty: 'Hard',
+		image:
+			'https://cdn.allrockymountain.com/images/content/20052_ExRyb_Continental_Divide_Trail_lg.jpg'
+	},
+	{
+		trailName: 'Lulu City Trail',
+		description:
+			"Explore this 7.8-mile out-and-back trail near Grand Lake, Colorado. Generally considered a moderately challenging route, it takes an average of 3 h 5 min to complete. This is a very popular area for birding, fishing, and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates:
+			'https://www.google.com/maps/dir/Current+Location/40.40174,-105.84865',
+		length: 7.8,
+		elevationGain: 826,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://www.americansouthwest.net/colorado/photographs1118/lulu-city-sign.jpg'
+	},
+	{
+		trailName: 'Shadow Mountain Trail',
+		description:
+			"Discover this 9.5-mile out-and-back trail near Grand Lake, Colorado. Generally considered a moderately challenging route, it takes an average of 4 h 33 min to complete. This is a popular trail for hiking, horseback riding, and running, but you can still enjoy some solitude during quieter times of day. The trail is open year-round and is beautiful to visit anytime. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.24027,-105.82562',
+		length: 9.5,
+		elevationGain: 1748,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/shadow-mountain-lookout/shadow-mountain-lookout.jpg'
 	}
 ];
 
