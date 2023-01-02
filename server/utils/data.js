@@ -440,6 +440,54 @@ const trails = [
 		difficulty: 'Hard',
 		image:
 			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/lawn-lake/lawn-lake.jpg'
+	},
+	{
+		trailName: 'Timber Lake Trail',
+		description:
+			"Discover this 10.9-mile out-and-back trail near Grand Lake, Colorado. Generally considered a challenging route, it takes an average of 5 h 39 min to complete. This is a popular trail for birding, camping, and fishing, but you can still enjoy some solitude during quieter times of day. The best times to visit this trail are March through September. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.39972,-105.84759',
+		length: 10.9,
+		elevationGain: 2408,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'http://www.rockymountainhikingtrails.com/rocky-mountain-photos/timber-lake/timber-lake.jpg'
+	},
+	{
+		trailName: 'Trail Ridge Road',
+		description:
+			"Get to know this 39.0-mile point-to-point trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 15 h 53 min to complete. This is a very popular area for road biking and scenic driving, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.38707,-105.6108',
+		length: 39.0,
+		elevationGain: 3891,
+		routeType: 'Point to Point',
+		difficulty: 'Moderate',
+		image:
+			'https://www.nps.gov/romo/learn/news/images/NPS-Photo_Trail-Ridge-Road_May-2022_1.jpg'
+	},
+	{
+		trailName: 'MacGregor Falls Trail',
+		description:
+			"Explore this 4.4-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 1 h 53 min to complete. This is a popular trail for hiking, but you can still enjoy some solitude during quieter times of day. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.39642,-105.51305',
+		length: 4.4,
+		elevationGain: 606,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://dayhikesneardenver.b-cdn.net/wp-content/uploads/2017/09/04-macgregor-falls-rmnp-longs-peak.jpg'
+	},
+	{
+		trailName: 'Coyote Valley Trail',
+		description:
+			"Get to know this 2.1-mile out-and-back trail near Grand Lake, Colorado. Generally considered an easy route, it takes an average of 39 min to complete. This is a popular trail for birding, fishing, and hiking, but you can still enjoy some solitude during quieter times of day. The best times to visit this trail are April through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.34459,-105.85848',
+		length: 2.1,
+		elevationGain: 45,
+		routeType: 'Out & Back',
+		difficulty: 'Easy',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/98D3066A-A05B-058E-4D573B77FF4CFFFE.jpg?width=1200&quality=90&mode=crop'
 	}
 ];
 
