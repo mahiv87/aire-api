@@ -368,6 +368,42 @@ const trails = [
 		difficulty: 'Hard',
 		image:
 			'https://dayhikesneardenver.b-cdn.net/wp-content/uploads/2016/06/01-sandbeach-lake-rocky-mountain-national-park.jpg'
+	},
+	{
+		trailName: 'Alpine Ridge Trail',
+		description:
+			"Check out this 0.7-mile out-and-back trail near Estes Park, Colorado. Generally considered an easy route, it takes an average of 21 min to complete. This is a very popular area for birding and walking, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.44121,-105.7542',
+		length: 0.7,
+		elevationGain: 147,
+		routeType: 'Out & Back',
+		difficulty: 'Easy',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/276B2361-0B9B-70B5-42CE266D73F66FDE.jpg?width=1200&quality=90&mode=crop'
+	},
+	{
+		trailName: 'Odessa Lake via Bear Lake Trailhead',
+		description:
+			"Experience this 8.3-mile out-and-back trail near Estes Park, Colorado. Generally considered a moderately challenging route, it takes an average of 4 h 29 min to complete. This is a very popular area for camping, hiking, and horseback riding, so you'll likely encounter other people while exploring. The best times to visit this trail are June through October. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.31176,-105.64456',
+		length: 8.3,
+		elevationGain: 2004,
+		routeType: 'Out & Back',
+		difficulty: 'Moderate',
+		image:
+			'https://dayhikesneardenver.com/wp-content/uploads/2016/02/00-odessa-lake-rocky-mountain-national-park-header.jpg'
+	},
+	{
+		trailName: 'Ypsilon Lake Trail',
+		description:
+			"Experience this 8.9-mile out-and-back trail near Estes Park, Colorado. Generally considered a challenging route, it takes an average of 5 h 6 min to complete. This is a very popular area for hiking, horseback riding, and walking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through September. You'll need to leave pups at home — dogs aren't allowed on this trail.",
+		trailheadCoordinates: '40.40722,-105.62614',
+		length: 8.9,
+		elevationGain: 2424,
+		routeType: 'Out & Back',
+		difficulty: 'Hard',
+		image:
+			'https://www.nps.gov/common/uploads/cropped_image/primary/D2834963-0053-1E4B-CEA592D524B6C160.jpg?width=1200&quality=90&mode=crop'
 	}
 ];
 
