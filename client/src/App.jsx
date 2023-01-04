@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
 	const [response, setResponse] = useState('');
-	const apiUrl = 'http://localhost:3001/api/trails';
+	const apiUrl = 'https://aire-api.herokuapp.com/api/trails';
 	const sampleResponse = [
 		{
 			_id: '63af2433d7f128a61ca7186e',
@@ -53,7 +53,7 @@ function App() {
 				<div className="usage-container">
 					<h1>Usage</h1>
 					<p>Retrieve all trails</p>
-					<code>GET /api/trails</code>
+					<code>GET https://aire-api.herokuapp.com/api/trails</code>
 				</div>
 				<Divider />
 				<div className="response-container">
