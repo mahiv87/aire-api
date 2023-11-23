@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
 	const [response, setResponse] = useState('');
-	const apiUrl = process.env.REACT_APP_API_URL;
+	const apiUrl = 'https://aire-api.herokuapp.com/api/trails';
 	const sampleResponse = [
 		{
 			_id: '63af2433d7f128a61ca7186e',
